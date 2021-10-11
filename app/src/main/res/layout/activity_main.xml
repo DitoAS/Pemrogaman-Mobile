@@ -20,16 +20,17 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start"
+        android:layout_width="126dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="260dp"
+        android:onClick="onBtnClick"
+        android:text="Enter"
+        app:backgroundTint="@color/cyan_i_guess"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxtName"
-        app:layout_constraintVertical_bias="0.391"
-        android:onClick="onBtnClick"/>
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtName" />
 
     <EditText
         android:id="@+id/edtTxtName"
@@ -43,6 +44,19 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/teks" />
+
+    <Button
+        android:id="@+id/btnpindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mulai Kelas!"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
