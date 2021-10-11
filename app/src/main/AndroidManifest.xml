@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMob">
         <activity
+            android:name=".MtrActivity1"
+            android:exported="true" />
+        <activity
             android:name=".MenuActivity"
             android:exported="true" />
         <activity
