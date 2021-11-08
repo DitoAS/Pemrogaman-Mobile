@@ -13,6 +13,7 @@ public class MenuActivity extends AppCompatActivity {
 
     private ImageView btnback;
     private Button btnmtr1;
+    private Button btnqz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,15 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MenuActivity.this, MainActivity.class));
+            }
+        });
+
+        btnqz = findViewById(R.id.btnqz);
+
+        btnqz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, quiz.class));
             }
         });
     }

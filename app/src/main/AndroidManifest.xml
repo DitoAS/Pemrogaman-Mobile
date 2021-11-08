@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMob">
         <activity
+            android:name=".quiz"
+            android:exported="false" />
+        <activity
             android:name=".MtrActivity1"
             android:exported="true" />
         <activity
