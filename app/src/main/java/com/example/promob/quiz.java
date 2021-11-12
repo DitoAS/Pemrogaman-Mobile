@@ -2,6 +2,7 @@ package com.example.promob;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -37,7 +38,7 @@ public class quiz extends AppCompatActivity implements View.OnClickListener {
             new Question(R.string.question_ocean, false)
     };
 
-
+    private Button btnbalik;
 
 
     @Override
@@ -50,12 +51,20 @@ public class quiz extends AppCompatActivity implements View.OnClickListener {
         questionTextView = findViewById(R.id.answer_text_view);
         prevButton = findViewById(R.id.prev_button);
         nextButton = findViewById(R.id.next_button);
+        btnbalik = findViewById(R.id.btnbalik);
 
 
         trueButton.setOnClickListener(this);
         falseButton.setOnClickListener(this);
         prevButton.setOnClickListener(this);
         nextButton.setOnClickListener(this);
+        btnbalik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent move = new Intent(quiz.this,MenuActivity.class);
+                startActivity(move);
+            }
+        });
 
     }
     @Override
@@ -98,5 +107,6 @@ public class quiz extends AppCompatActivity implements View.OnClickListener {
         }
         Toast.makeText(quiz.this, toastMessageId, Toast.LENGTH_SHORT).show();
     }
+
 
 }

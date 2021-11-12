@@ -13,6 +13,10 @@ public class MenuActivity extends AppCompatActivity {
 
     private ImageView btnback;
     private Button btnmtr1;
+    private Button btnmtr2;
+    private Button btnmtr3;
+    private Button btnmtr4;
+    private Button btnmtr5;
     private Button btnqz;
 
     @Override
@@ -26,6 +30,46 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent GoTo = new Intent(MenuActivity.this,MtrActivity1.class);
+                startActivity(GoTo);
+            }
+        });
+
+        btnmtr2 = findViewById(R.id.btnmtr2);
+
+        btnmtr2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent GoTo = new Intent(MenuActivity.this,materi2.class);
+                startActivity(GoTo);
+            }
+        });
+
+        btnmtr3 = findViewById(R.id.btnmtr3);
+
+        btnmtr3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent GoTo = new Intent(MenuActivity.this,materi3.class);
+                startActivity(GoTo);
+            }
+        });
+
+        btnmtr4 = findViewById(R.id.btnmtr4);
+
+        btnmtr4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent GoTo = new Intent(MenuActivity.this,materi4.class);
+                startActivity(GoTo);
+            }
+        });
+
+        btnmtr5 = findViewById(R.id.btnmtr5);
+
+        btnmtr5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent GoTo = new Intent(MenuActivity.this,materi5.class);
                 startActivity(GoTo);
             }
         });

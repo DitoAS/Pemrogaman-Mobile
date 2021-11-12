@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bkrn1">
 
     <TextView
         android:id="@+id/teks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aplikasi Belajar Bahasa Inggris Tingkat SD"
+        android:text="Selamat Datang di"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -18,45 +20,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.396" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="126dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="260dp"
-        android:onClick="onBtnClick"
-        android:text="Enter"
-        app:backgroundTint="@color/cyan_i_guess"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtTxtName" />
-
-    <EditText
-        android:id="@+id/edtTxtName"
+    <TextView
+        android:id="@+id/teks2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/teks" />
-
-    <Button
-        android:id="@+id/btnpindah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mulai Kelas!"
-        app:backgroundTint="@color/teal_200"
+        android:text="Belajar Bahasa Inggris Tingkat SD"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintVertical_bias="0.434"
+        />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -67,6 +42,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo10_16_19438" />
+
+    <ImageView
+        android:id="@+id/imgstart"
+        android:layout_width="230dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="188dp"
+        android:src="@drawable/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

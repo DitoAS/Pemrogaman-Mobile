@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMob">
         <activity
+            android:name=".materi5"
+            android:exported="false" />
+        <activity
+            android:name=".materi4"
+            android:exported="false" />
+        <activity
+            android:name=".materi3"
+            android:exported="false" />
+        <activity
+            android:name=".materi2"
+            android:exported="false" />
+        <activity
             android:name=".quiz"
             android:exported="false" />
         <activity
