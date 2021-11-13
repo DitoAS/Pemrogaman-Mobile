@@ -7,94 +7,85 @@
     tools:context=".MenuActivity"
     android:background="@drawable/bkrn1">
 
-    <TextView
-        android:id="@+id/judulhal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:text="Halaman Menu"
-        android:textSize="30dp"
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="113dp"
+        android:src="@drawable/kls1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/btnmtr4"
+        android:layout_width="332dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/ch4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnmtr1"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="56dp"
-        android:text="Materi 1"
-        app:backgroundTint="@color/teal_200"
+    <ImageView
+        android:id="@+id/btnmtr2"
+        android:layout_width="332dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="292dp"
+        android:src="@drawable/ch2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judulhal" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/btnback"
-        android:layout_width="35dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
-
-    <Button
-        android:id="@+id/btnmtr2"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Materi 2"
-        app:backgroundTint="@color/teal_200"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmtr1" />
-
-    <Button
         android:id="@+id/btnmtr3"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Materi 3"
-        app:backgroundTint="@color/teal_200"
+        android:layout_width="332dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="416dp"
+        android:src="@drawable/ch3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmtr2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnmtr4"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Materi 4"
-        app:backgroundTint="@color/teal_200"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmtr3" />
-
-    <Button
+    <ImageView
         android:id="@+id/btnmtr5"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="32dp"
-        android:text="Materi 5"
-        app:backgroundTint="@color/teal_200"
+        android:layout_width="332dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="664dp"
+        android:src="@drawable/ch5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnmtr1"
+        android:layout_width="332dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="172dp"
+        android:src="@drawable/ch1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmtr4" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnqz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginBottom="56dp"
         android:text="Quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmtr5" />
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnback"
+        android:layout_width="187dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/btnbck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

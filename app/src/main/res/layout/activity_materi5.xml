@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/btnbck"
-        android:layout_width="153dp"
-        android:layout_height="63dp"
+        android:layout_width="187dp"
+        android:layout_height="83dp"
         android:layout_marginBottom="4dp"
         android:src="@drawable/btnbck"
         app:layout_constraintBottom_toBottomOf="parent"

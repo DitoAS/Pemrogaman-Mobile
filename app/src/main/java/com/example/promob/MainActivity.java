@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         imgstart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent lanjut = new Intent(MainActivity.this, MenuActivity.class);
+                Intent lanjut = new Intent(MainActivity.this, menukls.class);
                 startActivity(lanjut);
             }
         });

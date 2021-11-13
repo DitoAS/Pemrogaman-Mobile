@@ -12,11 +12,12 @@ import android.widget.ImageView;
 public class MenuActivity extends AppCompatActivity {
 
     private ImageView btnback;
-    private Button btnmtr1;
-    private Button btnmtr2;
-    private Button btnmtr3;
-    private Button btnmtr4;
-    private Button btnmtr5;
+    private ImageView btnmtr1;
+    private ImageView btnmtr2;
+    private ImageView btnmtr3;
+    private ImageView btnmtr4;
+    private ImageView btnmtr5;
+
     private Button btnqz;
 
     @Override
@@ -74,14 +75,6 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        btnback = findViewById(R.id.btnback);
-
-        btnback.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, MainActivity.class));
-            }
-        });
 
         btnqz = findViewById(R.id.btnqz);
 
@@ -89,6 +82,15 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuActivity.this, quiz.class));
+            }
+        });
+
+        btnback = findViewById(R.id.btnback);
+
+        btnback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, menukls.class));
             }
         });
     }
