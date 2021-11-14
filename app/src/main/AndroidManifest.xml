@@ -3,7 +3,7 @@
     package="com.example.promob"
     android:largeHeap="true">
 
-    <uses-sdk android:minSdkVersion="8"></uses-sdk>
+    <uses-sdk android:minSdkVersion="8" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMob">
+        <activity
+            android:name=".mtr2_3"
+            android:exported="false" />
+        <activity
+            android:name=".mtr2_2"
+            android:exported="false" />
+        <activity
+            android:name=".mtr2_1b"
+            android:exported="false" />
+        <activity
+            android:name=".mtr2_1"
+            android:exported="false" />
+        <activity
+            android:name=".kls3"
+            android:exported="false" />
+        <activity
+            android:name=".kls2"
+            android:exported="false" />
         <activity
             android:name=".menukls"
             android:exported="false" />

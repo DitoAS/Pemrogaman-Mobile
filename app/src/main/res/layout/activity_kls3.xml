@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="211dp"
         android:layout_height="146dp"
-        android:src="@drawable/kls1_1"
+        android:src="@drawable/kls3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></ImageView>
 
@@ -48,17 +48,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/btnmtr5"
-        android:layout_width="332dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="664dp"
-        android:src="@drawable/ch5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
         android:id="@+id/btnmtr1"
         android:layout_width="332dp"
         android:layout_height="200dp"
@@ -72,12 +61,13 @@
         android:id="@+id/btnqz"
         android:layout_width="207dp"
         android:layout_height="67dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="164dp"
         android:backgroundTint="@color/oren"
         android:text="Quiz"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView

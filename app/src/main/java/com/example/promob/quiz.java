@@ -25,17 +25,17 @@ public class quiz extends AppCompatActivity implements View.OnClickListener {
 
 
     private Question[] questionBank = new Question[]{
-            new Question(R.string.question_declaration, true),
+            new Question(R.string.question_declaration, false),
             new Question(R.string.question_temp, true),
             new Question(R.string.question_body, false),
-            new Question(R.string.question_human, false),
-            new Question(R.string.question_physics, true),
+            new Question(R.string.question_human, true),
+            new Question(R.string.question_physics, false),
             new Question(R.string.question_spider, false),
-            new Question(R.string.question_water, false),
+            new Question(R.string.question_water, true),
             new Question(R.string.question_shark, false),
             new Question(R.string.question_electron, false),
-            new Question(R.string.question_planet, false),
-            new Question(R.string.question_ocean, false)
+            new Question(R.string.question_planet, true)
+
     };
 
     private Button btnbalik;
