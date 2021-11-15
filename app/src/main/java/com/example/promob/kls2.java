@@ -57,7 +57,15 @@ public class kls2 extends AppCompatActivity {
             }
         });
 
-        
+        btnqz = findViewById(R.id.btnqz);
+
+        btnqz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kls2.this, quiz2.class));
+            }
+        });
+
 
     }
 }

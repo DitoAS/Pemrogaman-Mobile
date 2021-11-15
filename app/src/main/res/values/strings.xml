@@ -26,6 +26,8 @@
     //False - orang tua
     <string name="question_planet">Uncle = Paman </string>
     //True
+
+
     <string name="previous_text">previous</string>
     <string name="next_text">next_text</string>
 </resources>

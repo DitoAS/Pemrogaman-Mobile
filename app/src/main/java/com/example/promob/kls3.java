@@ -29,5 +29,41 @@ public class kls3 extends AppCompatActivity {
             }
         });
 
+        btnmtr1 = findViewById(R.id.btnmtr1);
+
+        btnmtr1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kls3.this, materi3_1.class));
+            }
+        });
+
+        btnmtr2 = findViewById(R.id.btnmtr2);
+
+        btnmtr2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kls3.this, materi3_2.class));
+            }
+        });
+
+        btnmtr3 = findViewById(R.id.btnmtr3);
+
+        btnmtr3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kls3.this, materi3_3.class));
+            }
+        });
+
+        btnmtr4 = findViewById(R.id.btnmtr4);
+
+        btnmtr4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kls3.this, materi3_4.class));
+            }
+        });
+
     }
 }
