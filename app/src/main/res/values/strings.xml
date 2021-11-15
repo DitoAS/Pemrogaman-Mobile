@@ -26,7 +26,46 @@
     //False - orang tua
     <string name="question_planet">Uncle = Paman </string>
     //True
-
+    <string name="q2_1">01.00 = it\'s one o\'clock </string>
+    //True
+    <string name="q2_2">07.15 = it\'s quarter past five </string>
+    //False - quarter past seven
+    <string name="q2_3">03.26 = it\'s twenty five past three </string>
+    //False - twenty six past three
+    <string name="q2_4">10.30 = its\'s half past ten </string>
+    //True
+    <string name="q2_5">Dancing = Menari </string>
+    //True
+    <string name="q2_6">Painting = Menggambar </string>
+    //False - melukis
+    <string name="q2_7">Hiking = Mendaki </string>
+    //True
+    <string name="q2_8">Dentist = Dokter Gigi </string>
+    //True
+    <string name="q2_9">Architect = Guru </string>
+    //False - Arsitek
+    <string name="q2_10">Headmaster = Kepala Sekolah </string>
+    //True
+    <string name="q3_1">Dragon fruit = Buah Naga </string>
+    //True
+    <string name="q3_2">Grape = Nanas </string>
+    //False - Anggur
+    <string name="q3_3">Longan = Lengkeng </string>
+    //True
+    <string name="q3_4">Skirt = Kaos </string>
+    //False = Rok
+    <string name="q3_5">Sock = Kaos kaki </string>
+    //True
+    <string name="q3_6">Watch = Jam tangan </string>
+    //True
+    <string name="q3_7">Garden = Garasi </string>
+    //False - Taman
+    <string name="q3_8">Front Yard = Halaman depan </string>
+    //True
+    <string name="q3_9">Staircase = Tangga </string>
+    //True
+    <string name="q3_10">Terrace = Dinding </string>
+    //False - Teras
 
     <string name="previous_text">previous</string>
     <string name="next_text">next_text</string>

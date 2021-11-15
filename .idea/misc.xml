@@ -3,27 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_kls2.xml" value="0.4" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_kls3.xml" value="0.36015625" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_main.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi2.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi3.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi31.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi32.xml" value="0.36015625" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi32b.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi33.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi34.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi4.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi5.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_menu.xml" value="0.4" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_menukls.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr1.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr21.xml" value="0.36015625" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr21b.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr22.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr23.xml" value="0.38125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_quiz.xml" value="0.1953125" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_quiz2.xml" value="0.8" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_menukls.xml" value="0.264" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_quiz2.xml" value="0.19322916666666667" />
+        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_quiz3.xml" value="0.19322916666666667" />
       </map>
     </option>
   </component>

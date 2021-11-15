@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class quiz2 extends AppCompatActivity implements View.OnClickListener {
+public class quiz3 extends AppCompatActivity implements View.OnClickListener {
 
     private Button trueButton;
     private Button falseButton;
@@ -23,16 +23,16 @@ public class quiz2 extends AppCompatActivity implements View.OnClickListener {
 
 
     private Question[] questionBank = new Question[]{
-            new Question(R.string.q2_1, true),
-            new Question(R.string.q2_2, false),
-            new Question(R.string.q2_3, false),
-            new Question(R.string.q2_4, true),
-            new Question(R.string.q2_5, true),
-            new Question(R.string.q2_6, false),
-            new Question(R.string.q2_7, true),
-            new Question(R.string.q2_8, true),
-            new Question(R.string.q2_9, false),
-            new Question(R.string.q2_10, true)
+            new Question(R.string.q3_1, true),
+            new Question(R.string.q3_2, false),
+            new Question(R.string.q3_3, true),
+            new Question(R.string.q3_4, false),
+            new Question(R.string.q3_5, true),
+            new Question(R.string.q3_6, true),
+            new Question(R.string.q3_7, false),
+            new Question(R.string.q3_8, true),
+            new Question(R.string.q3_9, true),
+            new Question(R.string.q3_10, false)
 
     };
 
@@ -41,7 +41,7 @@ public class quiz2 extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz2);
+        setContentView(R.layout.activity_quiz3);
 
         falseButton = findViewById(R.id.false_button);
         trueButton = findViewById(R.id.ture_buttoon);
@@ -50,7 +50,6 @@ public class quiz2 extends AppCompatActivity implements View.OnClickListener {
         nextButton = findViewById(R.id.next_button);
         btnbalik = findViewById(R.id.btnbalik);
 
-
         trueButton.setOnClickListener(this);
         falseButton.setOnClickListener(this);
         prevButton.setOnClickListener(this);
@@ -58,7 +57,7 @@ public class quiz2 extends AppCompatActivity implements View.OnClickListener {
         btnbalik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent move = new Intent(quiz2.this,kls2.class);
+                Intent move = new Intent(quiz3.this,kls3.class);
                 startActivity(move);
             }
         });
@@ -102,6 +101,6 @@ public class quiz2 extends AppCompatActivity implements View.OnClickListener {
         } else {
             toastMessageId = R.string.wrong_answer;
         }
-        Toast.makeText(quiz2.this, toastMessageId, Toast.LENGTH_SHORT).show();
+        Toast.makeText(quiz3.this, toastMessageId, Toast.LENGTH_SHORT).show();
     }
 }

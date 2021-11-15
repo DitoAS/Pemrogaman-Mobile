@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMob">
         <activity
+            android:name=".quiz3"
+            android:exported="false" />
+        <activity
             android:name=".materi3_4"
             android:exported="false" />
         <activity

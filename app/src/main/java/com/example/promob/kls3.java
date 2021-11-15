@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class kls3 extends AppCompatActivity {
@@ -14,6 +15,7 @@ public class kls3 extends AppCompatActivity {
     private ImageView btnmtr2;
     private ImageView btnmtr3;
     private ImageView btnmtr4;
+    private Button btnqz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +64,15 @@ public class kls3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(kls3.this, materi3_4.class));
+            }
+        });
+
+        btnqz = findViewById(R.id.btnqz);
+
+        btnqz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kls3.this, quiz3.class));
             }
         });
 

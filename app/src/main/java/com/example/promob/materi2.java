@@ -27,13 +27,6 @@ public class materi2 extends AppCompatActivity {
             }
         });
 
-        btn2 = findViewById(R.id.btn2);
 
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(materi2.this,materi3.class));
-            }
-        });
     }
 }
