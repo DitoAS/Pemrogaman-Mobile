@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi3.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi4.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_materi5.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_menukls.xml" value="0.264" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_mtr1.xml" value="0.25416666666666665" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_quiz2.xml" value="0.19322916666666667" />
-        <entry key="..\:/Work &amp; Studies/Projek/Pemrogman Mobile/ProMob/app/src/main/res/layout/activity_quiz3.xml" value="0.19322916666666667" />
-      </map>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
